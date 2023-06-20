@@ -5,6 +5,7 @@ a {
 .home-page {
     width: 1920px;
     height: 700px;
+    background: #FFFFFF;
 }
 
 .header {
@@ -33,7 +34,7 @@ a {
     position: absolute;
     width: 88px;
     height: 30px;
-    font-family: 'Gilroy-Bold', Inter, sans-serif;
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 24px;
     line-height: 28px;
     color: #000000;
@@ -45,7 +46,7 @@ a {
     position: absolute;
     width: 88px;
     height: 30px;
-    font-family: 'Gilroy-Bold', Inter, sans-serif;
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 24px;
     line-height: 28px;
     color: #F25822;
@@ -54,7 +55,6 @@ a {
 }
 
 .top-menu {
-    /*position: absolute;*/
     width: 533px;
     height: 17px;
     margin: 8px 375px 632px 637px;
@@ -62,18 +62,15 @@ a {
 
 .menu-link {
     position: absolute;
-    /*width: 466px;*/
-    /*height: 48px;*/
-    font-family: 'Gilroy-Bold', Inter, sans-serif;
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 14px;
     line-height: 23px;
     color: #000000;
 }
+
 .menu-link-active-page {
     position: absolute;
-    /*width: 466px;*/
-    /*height: 48px;*/
-    font-family: 'Gilroy-Bold', Inter, sans-serif;
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 14px;
     line-height: 23px;
     color: #F25822;
@@ -90,8 +87,6 @@ a {
     position: absolute;
     width: 522px;
     height: 374px;
-    /*margin-left: 373px;*/
-    /*margin-top: 164px;*/
 }
 
 .home-meta-title {
@@ -109,7 +104,7 @@ a {
     position: absolute;
     width: 466px;
     height: 48px;
-    font-family: 'Gilroy-Bold', Inter, sans-serif;
+    font-family: 'Gilroy-Bold', sans-serif;
     font-size: 20px;
     line-height: 23px;
     color: #888888;
@@ -124,7 +119,65 @@ a {
 }
 
 .brand {
-    /*position: absolute;*/
     width: 1920px;
     height: 243px;
+    background: #FFFFFF;
+}
+
+.brand-logo {
+    width: 1200px;
+    height: 50px;
+    margin: 97px 375px 96px 345px;
+}
+
+.background {
+    width: 1920px;
+    height: 243px;
+    background: #FFFFFF;
+}
+
+.brand-img {
+    position: absolute;
+}
+
+.home-meta-button {
+    position: absolute;
+    width: 302px;
+    height: 50px;
+    margin-top: 324px;
+}
+
+.watch-text {
+    position: absolute;
+    width: 90px;
+    height: 19px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #AAAAAA;
+    margin-left: 212px;
+}
+
+.start-button {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+}
+
+.start-text {
+    position: absolute;
+    width: 69px;
+    height: 19px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 15px 36px 16px 35px;
 }
