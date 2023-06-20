@@ -167,6 +167,7 @@ a {
     background: #F25822;
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     border-radius: 50px;
+    border: none;
 }
 
 .start-text {
