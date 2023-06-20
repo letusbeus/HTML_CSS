@@ -1,0 +1,130 @@
+a {
+    text-decoration: none;
+}
+
+.home-page {
+    width: 1920px;
+    height: 700px;
+}
+
+.header {
+    position: absolute;
+    width: 1170px;
+    height: 40px;
+    margin: 40px 375px 620px 375px;
+}
+
+.top-logo {
+    position: absolute;
+    width: 137px;
+    height: 40px;
+    margin: 0 1408px 620px 0;
+
+}
+
+.logo-img {
+    position: absolute;
+    width: 35px;
+    height: 40px;
+    margin: 0 1510px 620px 0;
+}
+
+.logo-grow {
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    font-family: 'Gilroy-Bold', Inter, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding-left: 49px;
+    margin-top: 8px;
+}
+
+.logo-be {
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    font-family: 'Gilroy-Bold', Inter, sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F25822;
+    padding-left: 111px;
+    margin-top: 8px;
+}
+
+.top-menu {
+    /*position: absolute;*/
+    width: 533px;
+    height: 17px;
+    margin: 8px 375px 632px 637px;
+}
+
+.menu-link {
+    position: absolute;
+    /*width: 466px;*/
+    /*height: 48px;*/
+    font-family: 'Gilroy-Bold', Inter, sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+}
+.menu-link-active-page {
+    position: absolute;
+    /*width: 466px;*/
+    /*height: 48px;*/
+    font-family: 'Gilroy-Bold', Inter, sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: #F25822;
+}
+
+.home {
+    position: absolute;
+    width: 1170px;
+    height: 374px;
+    margin: 164px 375px 164px 373px;
+}
+
+.home-meta {
+    position: absolute;
+    width: 522px;
+    height: 374px;
+    /*margin-left: 373px;*/
+    /*margin-top: 164px;*/
+}
+
+.home-meta-title {
+    position: absolute;
+    width: 552px;
+    height: 222px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 57px;
+    line-height: 70px;
+    color: #000000;
+    margin-top: 0;
+}
+
+.home-meta-text {
+    position: absolute;
+    width: 466px;
+    height: 48px;
+    font-family: 'Gilroy-Bold', Inter, sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    margin-top: 239px;
+}
+
+.image {
+    position: absolute;
+    width: 610.73px;
+    height: 372.9px;
+    margin: 0 375.27px 163.1px 559px;
+}
+
+.brand {
+    /*position: absolute;*/
+    width: 1920px;
+    height: 243px;
+}
