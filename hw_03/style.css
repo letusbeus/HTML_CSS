@@ -19,15 +19,12 @@ a {
     position: absolute;
     width: 137px;
     height: 40px;
-    margin: 0 1408px 620px 0;
-
 }
 
 .logo-img {
     position: absolute;
     width: 35px;
     height: 40px;
-    margin: 0 1510px 620px 0;
 }
 
 .logo-grow {
@@ -38,8 +35,7 @@ a {
     font-size: 24px;
     line-height: 28px;
     color: #000000;
-    padding-left: 49px;
-    margin-top: 8px;
+    margin: 8px 0 0 47px;
 }
 
 .logo-be {
@@ -50,14 +46,79 @@ a {
     font-size: 24px;
     line-height: 28px;
     color: #F25822;
-    padding-left: 111px;
-    margin-top: 8px;
+    margin: 8px 0 0 107px;
 }
 
 .top-menu {
     width: 533px;
     height: 17px;
     margin: 8px 375px 632px 637px;
+}
+.top-menu-ul {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.top-menu-home {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.top-menu-about {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 73px;
+    color: #000000;
+}
+
+.top-menu-services {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 167px;
+    color: #000000;
+}
+
+.top-menu-features {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 255px;
+    color: #000000;
+}
+
+.top-menu-team {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 346px;
+    color: #000000;
+}
+
+.top-menu-blog {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 415px;
+    color: #000000;
+}
+
+.top-menu-contact {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 478px;
+    color: #000000;
 }
 
 .menu-link {
@@ -69,10 +130,6 @@ a {
 }
 
 .menu-link-active-page {
-    position: absolute;
-    font-family: 'Gilroy-Bold', sans-serif;
-    font-size: 14px;
-    line-height: 23px;
     color: #F25822;
 }
 
