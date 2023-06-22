@@ -3,7 +3,7 @@ a {
 }
 
 .home-page {
-    width: 1920px;
+    width: auto;
     height: 700px;
     background: #FFFFFF;
 }
@@ -176,7 +176,7 @@ a {
 }
 
 .brand {
-    width: 1920px;
+    width: auto;
     height: 243px;
     background: #FFFFFF;
 }
@@ -188,7 +188,7 @@ a {
 }
 
 .background {
-    width: 1920px;
+    width: auto;
     height: 243px;
     background: #FFFFFF;
 }
