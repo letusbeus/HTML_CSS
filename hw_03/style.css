@@ -1,0 +1,244 @@
+a {
+    text-decoration: none;
+}
+
+.home-page {
+    width: auto;
+    height: 700px;
+    background: #FFFFFF;
+}
+
+.header {
+    position: absolute;
+    width: 1170px;
+    height: 40px;
+    margin: 40px 375px 620px 375px;
+}
+
+.top-logo {
+    position: absolute;
+    width: 137px;
+    height: 40px;
+}
+
+.logo-img {
+    position: absolute;
+    width: 35px;
+    height: 40px;
+}
+
+.logo-grow {
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 8px 0 0 47px;
+}
+
+.logo-be {
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #F25822;
+    margin: 8px 0 0 107px;
+}
+
+.top-menu {
+    width: 533px;
+    height: 17px;
+    margin: 8px 375px 632px 637px;
+}
+
+.top-menu-ul {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.top-menu-li {
+    display: inline;
+}
+
+.top-menu-home {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.top-menu-about {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 73px;
+    color: #000000;
+}
+
+.top-menu-services {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 167px;
+    color: #000000;
+}
+
+.top-menu-features {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 255px;
+    color: #000000;
+}
+
+.top-menu-team {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 346px;
+    color: #000000;
+}
+
+.top-menu-blog {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 415px;
+    color: #000000;
+}
+
+.top-menu-contact {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    margin-left: 478px;
+    color: #000000;
+}
+
+.menu-link {
+    position: absolute;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.menu-link-active-page {
+    color: #F25822;
+}
+
+.home {
+    position: absolute;
+    width: 1170px;
+    height: 374px;
+    margin: 164px 375px 164px 373px;
+}
+
+.home-meta {
+    position: absolute;
+    width: 522px;
+    height: 374px;
+}
+
+.home-meta-title {
+    position: absolute;
+    width: 552px;
+    height: 222px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-top: 0;
+}
+
+.home-meta-text {
+    position: absolute;
+    width: 466px;
+    height: 48px;
+    font-family: 'Gilroy-Medium', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    margin-top: 239px;
+}
+
+.image {
+    position: absolute;
+    width: 610.73px;
+    height: 372.9px;
+    margin: 0 375.27px 163.1px 559px;
+}
+
+.brand {
+    width: auto;
+    height: 243px;
+    background: #FFFFFF;
+}
+
+.brand-logo {
+    width: 1200px;
+    height: 50px;
+    margin: 97px 375px 96px 345px;
+}
+
+.background {
+    width: auto;
+    height: 243px;
+    background: #FFFFFF;
+}
+
+.brand-img {
+    position: absolute;
+}
+
+.home-meta-button {
+    position: absolute;
+    width: 302px;
+    height: 50px;
+    margin-top: 324px;
+}
+
+.watch-text {
+    position: absolute;
+    width: 90px;
+    height: 19px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #AAAAAA;
+    margin-left: 212px;
+}
+
+.start-button {
+    position: absolute;
+    width: 140px;
+    height: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    border: none;
+}
+
+.start-text {
+    width: 69px;
+    height: 19px;
+    font-family: 'Gilroy-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
