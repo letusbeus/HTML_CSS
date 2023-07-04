@@ -44,7 +44,7 @@ body {
 }
 
 .header_logo {
-    width: 110.999px;
+    width: 111px;
     height: 38px;
     flex-shrink: 0;
     display: flex;
@@ -60,13 +60,13 @@ body {
 }
 
 .search {
-    width: 26.002px;
-    height: 26.792px;
+    width: 26px;
+    height: 27px;
     flex-shrink: 0;
 }
 
 .header_user_menu {
-    width: 158.996px;
+    width: 159px;
     height: 29px;
     flex-shrink: 0;
     color: #E8E8E8;
@@ -82,15 +82,14 @@ body {
     max-width: 1600px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-    gap: 63.42px;
+    gap: 4%;
     min-height: 764px;
     height: 100%;
 }
 
 .main_img {
-    max-width: 800.58px;
+    max-width: 800px;
     max-height: 764px;
 }
 
