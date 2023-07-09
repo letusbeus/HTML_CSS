@@ -154,10 +154,6 @@ body {
     justify-content: center;
 }
 
-.offer_item_left:hover {
-    background-image: url("../img/for_women_hover.png");
-}
-
 .offer_item_center {
     max-width: 360px;
     width: 100%;
@@ -167,10 +163,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.offer_item_center:hover {
-    background-image: url("../img/for_men_hover.png");
 }
 
 .offer_item_right {
@@ -184,10 +176,6 @@ body {
     justify-content: center;
 }
 
-.offer_item_right:hover {
-    background-image: url("../img/for_kids_hover.png");
-}
-
 .offer_item_long {
     max-width: 1140px;
     width: 100%;
@@ -198,13 +186,8 @@ body {
     justify-content: center;
 }
 
-.offer_item_long:hover {
-    background-image: url("../img/accessories_hover.png");
-}
-
 .offer_item_text {
     text-align: center;
-    /*justify-content: center;*/
 }
 
 .offer_item_uptitle {
@@ -249,7 +232,6 @@ body {
 .products_items {
     max-width: 1140px;
     width: 100%;
-    /*height: 1395px;*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -320,8 +302,7 @@ body {
     background-color: #F1E4E6;
 }
 
-
-@media (max-width: 1024px){
+@media (max-width: 1024px) {
 
     .luxury_brand {
         padding-bottom: 70px;
@@ -354,7 +335,7 @@ body {
     .main_uptitle {
         font-size: 24px;
     }
-    
+
     .offer {
         padding: 65px 0 110px 0;
     }
@@ -403,15 +384,6 @@ body {
 
     .products_content {
         max-width: 768px;
-    }
-    
-    .browse_all {
-        margin-top: 16px;
-        border-style: solid;
-        border-color: #FF6A6A;
-        background-color: #FFFFFF;;
-        color: #F26376;
-        font-size: 16px;
     }
 }
 
