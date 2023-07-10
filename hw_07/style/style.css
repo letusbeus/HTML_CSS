@@ -42,7 +42,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 859px;
+    gap: 74%;
 }
 
 .header_logo {
@@ -53,14 +53,12 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 41px;
-    /*margin-left: 4.1666666667%;*/
 }
 
 .logo {
     width: 44px;
     height: 38px;
     flex-shrink: 0;
-    /*margin-right: 4.1666666667%;*/
 }
 
 .search {
@@ -147,33 +145,22 @@ body {
     max-width: 360px;
     width: 100%;
     height: 260px;
-    text-align: center;
     background-image: url("../img/for_women.png");
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
+
 
 .offer_item_center {
     max-width: 360px;
     width: 100%;
     height: 260px;
-    text-align: center;
     background-image: url("../img/for_men.png");
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .offer_item_right {
     max-width: 360px;
     width: 100%;
     height: 260px;
-    text-align: center;
     background-image: url("../img/for_kids.png");
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .offer_item_long {
@@ -181,24 +168,34 @@ body {
     width: 100%;
     height: 180px;
     background-image: url("../img/accessories.png");
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .offer_item_text {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 22, 22, 0.70);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
 .offer_item_uptitle {
-    font-size: 15px;
-    color: #FFFFFF;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
 }
-
 
 .offer_item_title {
     font-weight: 900;
     font-size: 22px;
+    color: #F16D7F;
+    text-transform: uppercase;
 }
 
 .products {
@@ -314,7 +311,7 @@ body {
 
     .header_content {
         max-width: 768px;
-        gap: 424px;
+        gap: 55%;
     }
 
     .main_content {
