@@ -24,10 +24,6 @@ body {
     font-style: normal;
 }
 
-.luxury_brand {
-    padding-bottom: 60px;
-}
-
 .header {
     height: 75px;
     display: flex;
@@ -118,6 +114,7 @@ body {
     background-color: #F1E4E6;
     display: flex;
     justify-content: center;
+    margin-bottom: 65px;
 }
 
 .brand_content {
@@ -172,7 +169,7 @@ body {
 }
 
 .offer {
-    padding: 65px 0 96px 0;
+    margin-bottom: 96px;
     display: flex;
     justify-content: center;
 }
@@ -190,7 +187,6 @@ body {
     max-width: 360px;
     width: 100%;
     min-height: 260px;
-    height: auto;
     background-image: url("../img/for_women.png");
 }
 
@@ -198,7 +194,6 @@ body {
     max-width: 360px;
     width: 100%;
     min-height: 260px;
-    height: auto;
     background-image: url("../img/for_men.png");
     opacity: 70;
 }
@@ -207,7 +202,6 @@ body {
     max-width: 360px;
     width: 100%;
     min-height: 260px;
-    height: auto;
     background-image: url("../img/for_kids.png");
 }
 
@@ -215,7 +209,6 @@ body {
     max-width: 1140px;
     width: 100%;
     min-height: 180px;
-    height: auto;
     background-image: url("../img/accessories.png");
 }
 
@@ -253,6 +246,7 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 95px;
 }
 
 .products_content {
@@ -406,11 +400,6 @@ body {
 }
 
 @media (max-width: 1024px) {
-
-    .luxury_brand {
-        padding-bottom: 70px;
-    }
-
     .header {
         height: 74px;
     }
@@ -425,6 +414,10 @@ body {
 
     .header_content_right {
         margin-right: 32px;
+    }
+
+    .brand {
+        margin-bottom: 65px;
     }
 
     .brand_content {
@@ -454,7 +447,7 @@ body {
     }
 
     .offer {
-        padding: 65px 0 110px 0;
+        margin-bottom: 110px;
     }
 
     .offer_content {
@@ -486,6 +479,10 @@ body {
         background-size: 735px 116px;
     }
 
+    .products {
+        margin-bottom: 70px;
+    }
+
     .products_content {
         max-width: 768px;
         gap: 0;
@@ -512,7 +509,6 @@ body {
 @media (max-width: 767px) {
 
     .luxury_brand {
-        padding-bottom: 85px;
     }
 
     .header {
@@ -538,6 +534,10 @@ body {
 
     .header_content_right_item_profile {
         display: none;
+    }
+
+    .brand {
+        margin-bottom: 64px;
     }
 
     .brand_content {
@@ -574,7 +574,7 @@ body {
     }
 
     .offer {
-        padding: 64px 0;
+        margin-bottom: 64px;
     }
 
     .offer_content {
@@ -584,29 +584,33 @@ body {
 
     .offer_item_left {
         max-width: 343px;
-        max-height: 247px;
+        min-height: 247px;
         background-size: auto;
         margin-bottom: 16px;
     }
 
     .offer_item_center {
         max-width: 343px;
-        max-height: 247px;
+        min-height: 247px;
         background-size: auto;
         margin-bottom: 16px;
     }
 
     .offer_item_right {
         max-width: 343px;
-        max-height: 247px;
+        min-height: 247px;
         background-size: auto;
         margin-bottom: 16px;
     }
 
     .offer_item_long {
         max-width: 343px;
-        max-height: 111px;
+        min-height: 111px;
         background-position: center;
+    }
+
+    .products {
+        margin-bottom: 85px;
     }
 
     .products_text {
