@@ -25,7 +25,6 @@ body {
 }
 
 .luxury_brand {
-    padding-bottom: 60px;
 }
 
 .header {
@@ -118,6 +117,7 @@ body {
     background-color: #F1E4E6;
     display: flex;
     justify-content: center;
+    margin-bottom: 65px;
 }
 
 .brand_content {
@@ -172,7 +172,7 @@ body {
 }
 
 .offer {
-    padding: 65px 0 96px 0;
+    margin-bottom: 96px;
     display: flex;
     justify-content: center;
 }
@@ -190,7 +190,6 @@ body {
     max-width: 360px;
     width: 100%;
     min-height: 260px;
-    height: auto;
     background-image: url("../img/for_women.png");
 }
 
@@ -198,7 +197,6 @@ body {
     max-width: 360px;
     width: 100%;
     min-height: 260px;
-    height: auto;
     background-image: url("../img/for_men.png");
     opacity: 70;
 }
@@ -207,7 +205,6 @@ body {
     max-width: 360px;
     width: 100%;
     min-height: 260px;
-    height: auto;
     background-image: url("../img/for_kids.png");
 }
 
@@ -215,7 +212,6 @@ body {
     max-width: 1140px;
     width: 100%;
     min-height: 180px;
-    height: auto;
     background-image: url("../img/accessories.png");
 }
 
@@ -253,6 +249,7 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 95px;
 }
 
 .products_content {
@@ -405,10 +402,205 @@ body {
     background-color: #F1E4E6;
 }
 
+.terms {
+    background-color: #222224;
+    width: auto;
+    padding: 103px 0 104px;
+}
+
+.terms_content {
+    display: flex;
+    justify-content: center;
+}
+
+.terms_menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.terms_menu_item {
+    display: flex;
+    max-width: 360px;
+    min-height: 134px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terms_item_txt_wrp {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.terms_item_title {
+    color: #FBFBFB;
+    font-size: 20px;
+}
+
+.terms_item_desc {
+    color: #FBFBFB;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 100px;
+}
+
+.footer_content_wrp {
+    max-width: 1600px;
+    width: 100%;
+    height: 448px;
+    background-image: url("../img/footer_bgc.png");
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_content {
+    background-color: rgba(244, 244, 244, 0.70);
+    display: flex;
+    gap: 225px;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer_left {
+    max-width: 360px;
+    width: 100%;
+    min-height: 225px;
+    margin: 97px 0 126px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer_left_wrp {
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.footer_left_photo {
+    margin-top: -10px;
+    margin-left: -30px;
+    width: 154px;
+    min-height: 154px;
+    background-image: url("../img/footer_woman.png");
+    background-size: 145px 150px;
+    background-position: center;
+}
+
+.footer_left_txt_wrp {
+    text-align: center;
+    width: 360px;
+    min-height: 100px;
+}
+
+.footer_left_txt {
+    color: #222224;
+    text-align: center;
+    font-size: 20px;
+}
+
+.cursive {
+    color: #222224;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.footer_right {
+    width: 557px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.footer_right_txt_wrp {
+    min-height: 61px;
+    gap: 32px;
+}
+
+.footer_right_txt_uptitle {
+    color: #222224;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 167.2%;
+    text-transform: uppercase;
+}
+
+.footer_right_txt_title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer_right_sender_wrp {
+    display: flex;
+    width: 356px;
+    height: 49px;
+}
+
+.footer_right_sender_input {
+    width: 256px;
+    height: 100%;
+    background-color: #E1E1E1;
+    border: none;
+    border-radius: 50px 0 0 50px;
+}
+
+.footer_right_sender_btn {
+    width: 100px;
+    height: 100%;
+    background-color: #F16D7F;
+    border: none;
+    border-radius: 0 50px 50px 0;
+}
+
+.btn_txt {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer_right_sender_btn:hover {
+    background-color: #F1E4E6;
+    outline: 1px solid #F16D7F;
+}
+
+.footer_right_sender_btn:hover .btn_txt {
+    color: #F16D7F;
+}
+
+.footer_right_sender_btn:active {
+    background-color: #F16D7F;
+}
+
+.footer_right_sender_btn:active .btn_txt {
+    color: #FFF;
+}
+
+
+
 @media (max-width: 1024px) {
 
     .luxury_brand {
-        padding-bottom: 70px;
     }
 
     .header {
@@ -425,6 +617,10 @@ body {
 
     .header_content_right {
         margin-right: 32px;
+    }
+
+    .brand {
+        margin-bottom: 65px;
     }
 
     .brand_content {
@@ -454,7 +650,7 @@ body {
     }
 
     .offer {
-        padding: 65px 0 110px 0;
+        margin-bottom: 110px;
     }
 
     .offer_content {
@@ -486,6 +682,10 @@ body {
         background-size: 735px 116px;
     }
 
+    .products {
+        margin-bottom: 70px;
+    }
+
     .products_content {
         max-width: 768px;
         gap: 0;
@@ -512,7 +712,6 @@ body {
 @media (max-width: 767px) {
 
     .luxury_brand {
-        padding-bottom: 85px;
     }
 
     .header {
@@ -538,6 +737,10 @@ body {
 
     .header_content_right_item_profile {
         display: none;
+    }
+
+    .brand {
+        margin-bottom: 64px;
     }
 
     .brand_content {
@@ -574,7 +777,7 @@ body {
     }
 
     .offer {
-        padding: 64px 0;
+        margin-bottom: 64px;
     }
 
     .offer_content {
@@ -584,29 +787,33 @@ body {
 
     .offer_item_left {
         max-width: 343px;
-        max-height: 247px;
+        min-height: 247px;
         background-size: auto;
         margin-bottom: 16px;
     }
 
     .offer_item_center {
         max-width: 343px;
-        max-height: 247px;
+        min-height: 247px;
         background-size: auto;
         margin-bottom: 16px;
     }
 
     .offer_item_right {
         max-width: 343px;
-        max-height: 247px;
+        min-height: 247px;
         background-size: auto;
         margin-bottom: 16px;
     }
 
     .offer_item_long {
         max-width: 343px;
-        max-height: 111px;
+        min-height: 111px;
         background-position: center;
+    }
+
+    .products {
+        margin-bottom: 85px;
     }
 
     .products_text {
