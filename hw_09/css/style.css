@@ -24,9 +24,6 @@ body {
     font-style: normal;
 }
 
-.luxury_brand {
-}
-
 .header {
     height: 75px;
     display: flex;
@@ -40,9 +37,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.header_item_link {
 }
 
 .header_content_left {
@@ -78,9 +72,6 @@ body {
 
 .header_content_right_item_menu {
     margin-bottom: 2px;
-}
-
-.header_content_right_item_profile {
 }
 
 .header_content_right_item_cart {
@@ -472,7 +463,8 @@ body {
 }
 
 .bottom_content_wrp {
-    width: 1140px;
+    max-width: 1140px;
+    width: 100%;
     min-height: 293px;
     padding-bottom: 57px;
     display: flex;
@@ -497,8 +489,6 @@ body {
 }
 
 .bottom_left_txt_wrp {
-    text-align: center;
-    width: 360px;
 }
 
 .bottom_left_txt {
@@ -523,7 +513,6 @@ body {
 
 .bottom_right_txt_wrp {
     min-height: 61px;
-    gap: 32px;
 }
 
 .bottom_right_txt_uptitle {
@@ -603,8 +592,6 @@ body {
 
 .footer_copyright_wrp {
     padding-left: 5px;
-    width: 332px;
-    min-height: 19px;
 }
 
 .footer_copyright_txt {
@@ -653,9 +640,6 @@ body {
 
 
 @media (max-width: 1024px) {
-
-    .luxury_brand {
-    }
 
     .header {
         height: 74px;
@@ -763,7 +747,6 @@ body {
     }
 
     .terms {
-        max-width: 768px;
         padding: 48px 204px 64px;
     }
 
@@ -779,10 +762,6 @@ body {
     }
 
     .bottom_content {
-        background-color: rgba(244, 244, 244, 0.70);
-        display: flex;
-        width: 100%;
-        height: 100%;
         justify-content: center;
     }
 
@@ -791,8 +770,6 @@ body {
         gap: 74px;
         margin-top: 64px;
         padding-bottom: 0;
-        display: flex;
-        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         align-content: flex-start;
@@ -800,14 +777,18 @@ body {
 
     .footer_wrp {
         max-width: 768px;
-        padding: 0 32px;
+    }
+
+    .footer_copyright_wrp {
+        margin-left: 32px;
+    }
+
+    .footer_social {
+        margin-right: 32px;
     }
 }
 
 @media (max-width: 767px) {
-
-    .luxury_brand {
-    }
 
     .header {
         height: 74px;
@@ -935,5 +916,109 @@ body {
 
     .browse_all {
         margin-top: 41px;
+    }
+
+    .terms {
+        padding: 48px 0 81px;
+    }
+
+    .terms_menu {
+        gap: 47px;
+    }
+
+    .terms_menu_item {
+        max-width: 348px;
+        min-height: 129px;
+    }
+
+    .terms_item_txt_wrp {
+        gap: 15px;
+    }
+
+    .bottom_wrp {
+        max-width: 375px;
+        min-height: 550px;
+        background-image: url("../img/bottom_bgc_mobile.png");
+   }
+
+    .bottom_content_wrp {
+        max-width: 375px;
+        gap: 65px;
+        align-content: flex-start;
+    }
+
+    .bottom_left {
+        max-width: 343px;
+        gap: 29px;
+    }
+
+    .bottom_left_img_wrp {
+        width: 92px;
+        height: 92px;
+    }
+
+    .bottom_left_txt {
+        font-size: 18px;
+    }
+
+    .cursive {
+        font-size: 18px;
+    }
+
+    .bottom_right {
+        width: 341px;
+        gap: 22px;
+    }
+
+    .bottom_right_txt_wrp {
+        max-width: 271px;
+        min-height: 54px;
+    }
+
+    .bottom_right_txt_uptitle {
+        line-height: 153%;
+    }
+
+    .bottom_right_txt_title {
+        font-size: 14px;
+        line-height: 153%;
+    }
+
+    .subscribe-block {
+        max-width: 341px;
+        height: 47px;
+    }
+
+    .subscribe-block input[type="email"] {
+        padding: 6px 0 6px 21px;
+    }
+
+    .subscribe-block button {
+        width: 96px;
+    }
+
+    .subscribe-block button:hover {
+        background-color: #E05C6E;
+    }
+
+    .subscribe-block button:active {
+        background-color: #F16D7F;
+    }
+
+    .footer_wrp {
+        max-width: 375px;
+        justify-content: center;
+        flex-direction: column-reverse;
+        padding: 43px 0 9px 0;
+        gap: 40px;
+    }
+
+    .footer_copyright_wrp {
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer_social {
+        margin: 0;
     }
 }
