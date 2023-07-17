@@ -761,6 +761,47 @@ body {
     .browse_all {
         margin-top: 32px;
     }
+
+    .terms {
+        max-width: 768px;
+        padding: 48px 204px 64px;
+    }
+
+    .terms_menu {
+        gap: 48px;
+    }
+
+    .bottom_wrp {
+        background-image: url(../img/bottom_bgc_tablet.png);
+        max-width: 768px;
+        background-position-y: 0;
+        min-height: 614px;
+    }
+
+    .bottom_content {
+        background-color: rgba(244, 244, 244, 0.70);
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .bottom_content_wrp {
+        max-width: 768px;
+        gap: 74px;
+        margin-top: 64px;
+        padding-bottom: 0;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        align-content: flex-start;
+    }
+
+    .footer_wrp {
+        max-width: 768px;
+        padding: 0 32px;
+    }
 }
 
 @media (max-width: 767px) {
