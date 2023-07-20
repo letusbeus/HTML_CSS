@@ -496,7 +496,6 @@ body {
     min-height: 448px;
     height: auto;
     background-image: url("../img/bottom_bgc.png");
-    background-position: center;
 }
 
 .bottom_content {
@@ -799,10 +798,9 @@ body {
     }
 
     .bottom_wrp {
-        background-image: url(../img/bottom_bgc_tablet.png);
-        max-width: 768px;
-        background-position-y: 0;
         min-height: 614px;
+        background-size: auto 693px;
+        background-position-x: 25%;
     }
 
     .bottom_content {
@@ -980,9 +978,9 @@ body {
     }
 
     .bottom_wrp {
-        max-width: 375px;
+        max-width: 767px;
         min-height: 550px;
-        background-image: url("../img/bottom_bgc_mobile.png");
+        background-size: auto 550px;
     }
 
     .bottom_content_wrp {
